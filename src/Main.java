@@ -38,7 +38,7 @@ public class Main {
             System.out.println(num3[i]);
         }
 
-        System.out.println("Задание 4!");
+        System.out.println("Задание 4! ");
 
         for (int n = 0; n < num.length; n++) {
             if (num[n] % 2 != 0) {
