@@ -22,21 +22,55 @@ public class Main {
 
         System.out.println("Задание 2!");
 
-        System.out.println(Arrays.toString(num));
-        System.out.println(Arrays.toString(num2));
-        System.out.println(Arrays.toString(num3));
+        for (int i = 0; i < num.length; i++) {
+            if (i > 0) {
+                System.out.print(", ");
+            }
+            System.out.print(num[i]);
+        }
+        System.out.println();
+
+        for (int i = 0; i < num2.length; i++) {
+            if (i > 0) {
+                System.out.print(", ");
+            }
+            System.out.print(num2[i]);
+        }
+        System.out.println();
+
+        for (int i = 0; i < num3.length; i++) {
+            if (i > 0) {
+                System.out.print(", ");
+            }
+            System.out.print(num3[i]);
+        }
+        System.out.println();
 
         System.out.println("Задание 3!");
 
         for (int i = num.length - 1; i >= 0; i--) {
-            System.out.println(num[i]);
+            if (i >= 0) {
+                System.out.print(", ");
+            }
+            System.out.print(num3[i]);
         }
+        System.out.println();
+
         for (float i = num2.length - 1; i >= 0; i--) {
-            System.out.println(num2[(int) i]);
+            if (i >= 0) {
+                System.out.print(", ");
+            }
+            System.out.print(num2[(int) i]);
         }
+        System.out.println();
+
         for (int i = num3.length - 1; i >= 0; i--) {
-            System.out.println(num3[i]);
+        if (i >= 0) {
+            System.out.print(", ");
         }
+        System.out.print(num3[i]);
+    }
+        System.out.println();
 
         System.out.println("Задание 4! ");
 
