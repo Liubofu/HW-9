@@ -49,7 +49,7 @@ public class Main {
         System.out.println("Задание 3!");
 
         for (int i = num.length-1; i >= 0; i--) {
-            System.out.print(num3[i]);
+            System.out.print(num[i]);
             if (i > 0) {
                 System.out.print(", ");
             }
