@@ -56,8 +56,8 @@ public class Main {
         }
         System.out.println();
 
-        for (float i = num2.length - 1; i >= 0; i--) {
-            System.out.print(num2[(int) i]);
+        for (int i = num2.length - 1; i >= 0; i--) {
+            System.out.print(num2[i]);
             if (i > 0) {
                 System.out.print(", ");
             }
